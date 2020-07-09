@@ -12,7 +12,8 @@ namespace Logger
             FileLogger customPath = new FileLogger("customfile.txt");
             customPath.Log("test");
 
-            LogHelper.Log(LogTarget.Console, "console test");
+            LogHelper.Log(LogTarget.Console, "console test 2");
+            LogHelper.Log(LogTarget.Console, "console test 3");
 
             Console.ReadLine();
         }
