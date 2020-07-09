@@ -35,5 +35,5 @@ LogHelper.Log(LogTarget.Console, "console test");
   ```
 ## Logging to the event log
  ```cs
-logHelper.Log(LogTarget.EventLog, "Event log test");
+LogHelper.Log(LogTarget.EventLog, "Event log test");
 ```
